@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/11.6.0/math.min.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Tugas Besar Ivan</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--- navbar start -->
+    <nav>
+      <div class="judul">
+        <h1>kalkulator-kalkulus</h1>
+      </div>
+    </nav>
+    <!-- navbar end -->
+
+    <div class="container">
+      <div class="card">
+        <div class="explanation">
+          <h4>Pengertian akar-akar persamaan kuadrat</h4>
+          <p>
+            Akar-akar persamaan kuadrat adalah nilai-nilai penyelesaian dari
+            suatu persamaan kuadrat. Setiap persamaan memiliki dua kemungkinan
+            nilai x karena sifatnya yang merupakan persamaan dengan pangkat
+            tertinggi dua. Berdasarkan penjelasan tersebut, akar-akar persamaan
+            kuadrat adalah nilai pengganti x yang memenuhi persamaan kuadrat
+            yang biasanya disimbolkan sebagai x1 dan x2 .
+          </p>
+        </div>
+        <div class="kalkulus">
+          <input type="text" style="width: 50px" id="a" />
+          <label for="a"> x² + </label>
+          <input type="text" style="width: 50px" id="b" />
+          <label for="b"> x + </label>
+          <input type="text" style="width: 50px" id="c" />
+          <label for="c"> = 0</label>
+          <div>
+            <button onclick="hitungAkar()">Hitung akar</button>
+          </div>
+          <div class="result">
+            <h4>Hasil Akar Persamaan Kuadrat</h4>
+          </div>
+          <div class="card-body">
+            <div>
+              <label id="akar1"></label>
+            </div>
+            <div>
+              <label id="akar2"></label>
+            </div>
+          </div>
+        </div>
+        <div class="biodata">
+          <p>Nama &nbsp;: Muhammad Ivan Ardyansyah</p>
+          <p>Nim &nbsp;&nbsp;&nbsp;&nbsp;: 411231083</p>
+          <p>Prodi&nbsp;&nbsp;&nbsp;: Teknik Informatik</p>
+          <p>Matkul&nbsp;: Kalkulus</p>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

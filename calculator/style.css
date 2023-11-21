@@ -1,0 +1,140 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'poppins', sans-serif;
+  background-color: #0f0e17;
+  color: #ffffff;
+}
+
+/* navbar start*/
+nav {
+  display: flex;
+  padding: 30px;
+  background-color: #010101;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #004643;
+}
+
+
+nav .judul {
+  display: flex;
+  color: rgb(255, 255, 255);
+  font-size: 1.3rem;
+  justify-content: center;
+  font-family: "Poppins";
+  margin-left: 18%;
+  margin-right: auto;
+}
+
+nav .judul h1 {
+  display: flex;
+}
+
+/* navbar end */
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.card {
+  border-radius: 20px;
+  padding: 20px;
+  margin: 20px 0;
+  background-color: #004643;
+  border: white 5px solid;
+}
+
+.explanation,
+.kalkulus {
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.explanation h4 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.kalkulus h3 {
+  max-width: 400px;
+  margin: 1 auto;
+  padding: 20px;
+}
+
+.kalkulus input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.kalkulus button {
+  background-color: #010101;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  border: 2px solid white;
+  font-family: 'poppins';
+}
+
+.result {
+  font-size: 18px;
+  margin-top: 1rem;
+}
+
+.card-body {
+  margin-top: 1rem;
+}
+
+.biodata {
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+
+/* Handphone (lebar layar kurang dari 768px) */
+@media (max-width: 768px) {
+  nav {
+    display: flex;
+    padding: 20px;
+  }
+
+  nav .judul {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1rem;
+  }
+
+  .kalkulus input[type="text"] {
+    display: inline-flex;
+    width: 10%;
+    max-width: 32px;
+    font-size: 16px;
+  }
+}
+
+/* Tablet (lebar layar antara 768px dan 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  nav .judul {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
